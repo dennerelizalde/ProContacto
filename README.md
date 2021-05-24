@@ -228,7 +228,7 @@ Responder las siguientes preguntas brevemente sobre:
 8. **¿Qué significa que un negocio sea B2B?** Los productos o servicios de una empresa son dirigidos a otras empresas. 
 9. **¿Qué significa que un negocio sea B2C?** Los productos o servicios de una empresa son dirigidos al público en general.
 10. **¿Qué es un KPI?** Es un indicador para medir el desempeño de una empresa, un proyecto o algún empleado en relación con las metas u objetivos planteados.
-11. **¿Qué es una API y en qué se diferencia de una Rest API?** 
+11. **¿Qué es una API y en qué se diferencia de una Rest API?** Una API es un conjunto de reglas que permite la comunicación entre dos aplicaciones de manera flexible, mientras que una Rest API es el conjunto de reglas que definen el diseño de la arquitectura de una API.
 12. **¿Qué es un Proceso Batch?** Aquel que puede ejecutarse con poca o nula interacción del usuario final.
 13. **¿Qué es Kanban?** Es una metodología que permite observar el progreso de tareas (por hacer, en proceso o finalizadas) de forma visual (tarjetas).
 14. **¿Qué es un ERP? ¿Salesforce es un ERP?** Es un software que optimiza la administración de diversos departamentos de una empresa como recursos humanos, finanzas, abastecimiento y gestión de riesgos. Salesforce no es un ERP porque está mayormente enfocado en las ventas y la relación con sus clientes.
@@ -262,6 +262,8 @@ Responder las siguientes preguntas brevemente sobre:
 * Samsing, C. (2021). Omnicanalidad: 12 ejemplos excepcionales de estrategias omnicanal. 21 de mayo de 2021, de HubSpot. Sitio web: https://blog.hubspot.es/service/ejemplos-excepcionales-experiencia-omnicanal
 * Juan, C.. (2016). Diferencias entre el Marketing B2C y B2B. 21 de mayo de 2021, de IEBS. Sitio web: https://www.iebschool.com/blog/diferencias-entre-b2b-y-b2c-marketing-estrategico/
 * EAE Business School. (2020). Ejemplos de KPIS que aplicar en tu empresa. 21 de mayo de 2021, de EAE Business School Sitio web: https://retos-directivos.eae.es/algunos-ejemplos-de-kpis-que-puedes-aplicar-en-tu-empresa/
+* Fernández, Y. (2019). API: qué es y para qué sirve. 23 de mayo de 2021, de Xataka Sitio web: https://www.xataka.com/basics/api-que-sirve
+* GitBook. (s/f). Creación de una API. 23 de mayo de 2021, de GitBook Sitio web: https://juanda.gitbooks.io/webapps/content/api/arquitectura-api-rest.html
 * IBM Corporation. (s/f). What is batch processing?. 21 de mayo de 2021, de IBM. Sitio web: https://www.ibm.com/docs/es/zos-basic-skills?topic=jobs-what-is-batch-processing
 * Gilibets, L. (2020). Qué es la metodología Kanban y cómo utilizarla. 21 de mayo de 2021, de IEBS Sitio web: https://www.iebschool.com/blog/metodologia-kanban-agile-scrum/
 * Oracle. (2021). ¿Qué es ERP?. 21 de mayo de 2021, de Oracle. Sitio web: https://www.oracle.com/mx/erp/what-is-erp/
