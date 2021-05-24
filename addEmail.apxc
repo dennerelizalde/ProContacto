@@ -1,0 +1,24 @@
+public class addEmail {
+    @future(callout=true)
+    public static void getEmail(String identifier) {        
+        Http httpProtocol = new Http();
+        HttpRequest request = new HttpRequest();
+        String endpoint = 'https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json';
+        request.setEndPoint(endpoint);
+        request.setMethod('GET');
+        HttpResponse response = httpProtocol.send(request);
+        System.debug(response.getBody());
+        JSONParser parser = JSON.createParser(response.getBody());
+        String email;
+        while (parser.nextToken() != null) {
+            if ((parser.getCurrentToken() == JSONToken.FIELD_NAME) && (parser.getText() == identifier)) {
+                while (parser.nextToken() != JSONToken.END_OBJECT) {
+                    if ((parser.getCurrentToken() == JSONToken.FIELD_NAME) && (parser.getText() == 'email')) {
+                    	parser.nextToken();
+                    	email = parser.getText();
+                	}   
+                }
+            }
+        }
+    }   
+}

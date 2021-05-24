@@ -1,0 +1,5 @@
+trigger TriggerEmail on Contact (after insert, after update) {
+    for(Contact c : Trigger.New) {
+        addEmail.getEmail(c.idprocontacto__c);
+    }
+}
